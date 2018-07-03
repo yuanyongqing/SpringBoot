@@ -2,7 +2,7 @@
 
 > 针对controller 中 如何使用注解进行解析
 
-#### @RestController
+#### @RestController 等同于@Controller + @ResponseBody
 
 - 返回数据类型为 Json 字符串，特别适合我们给其他系统提供接口时使用。
 
